@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="apk" build-on-make="true" name="rndm-todo">
+    <output-path>$PROJECT_DIR$/apk</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="includeSystemProGuardCfgFile" value="true" />
+        <option name="keyStoreUrl" value="file://" />
+        <option name="proGuardCfgFileUrl" value="file://$PROJECT_DIR$/proguard-project.txt" />
+        <option name="signingMode" value="DEBUG" />
+      </options>
+    </properties>
+    <root id="archive" name="rndm-todo.apk">
+      <element id="android-final-package" facet="rememberMe/android/Android" />
+    </root>
+  </artifact>
+</component>

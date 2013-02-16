@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_content_loading"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:background="@drawable/loader_background_success"
+    android:clickable="false"
+    android:orientation="horizontal"
+    android:padding="15dp" >
+
+    <TextView
+        android:id="@+id/overlay_label"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:text="@string/loading_content"
+        android:textColor="@color/darkgreen"
+        android:paddingLeft="10dp"  />
+
+</LinearLayout>

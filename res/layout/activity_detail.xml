@@ -1,0 +1,185 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:fillViewport="true" android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lightgrey"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <EditText
+                    android:id="@+id/detail_item_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dip"
+                    android:ems="10"
+                    android:hint="@string/hint_detail_title"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true">
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/grey" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/lightergrey"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="@string/label_detail_contacts" />
+
+                    <Button
+                        android:id="@+id/button_add_contact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_add" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/grey" />
+
+                <de.rndm.todo.custom.ExpandableHeightGridView
+                    android:id="@+id/list_contacts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:horizontalSpacing="0dp"
+                    android:isScrollContainer="false"
+                    android:numColumns="2"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="0dp" >
+                </de.rndm.todo.custom.ExpandableHeightGridView>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/grey" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lightergrey"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/label_planned"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.48"
+                    android:text="@string/label_detail_planned"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/detail_time_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.48"
+                    android:text="@string/button_detail_time" />
+
+                <Button
+                    android:id="@+id/detail_date_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.48"
+                    android:text="@string/button_detail_date" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/grey" />
+
+            <EditText
+                android:id="@+id/detail_description"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:minHeight="150dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:hint="@string/hint_detail_description"
+                android:inputType="textMultiLine"
+                android:padding="5dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/grey" />
+
+            <CheckBox
+                android:id="@+id/detail_active"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lightergrey"
+                android:gravity="center"
+                android:text="@string/checkbox_detail_done" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/grey" />
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightgrey"
+            android:layout_weight="0">
+
+        <Button
+                android:id="@+id/detail_submit"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.6"
+                android:text="@string/button_detail_save" />
+
+        <ImageButton
+                android:id="@+id/detail_revert"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:src="@android:drawable/ic_menu_revert" />
+
+        <ImageButton
+                android:id="@+id/detail_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:src="@android:drawable/ic_menu_delete" />
+    </LinearLayout>
+</LinearLayout>

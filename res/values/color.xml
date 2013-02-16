@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#ff0000</color>
+    <color name="darkred">#640D0D</color>
+    <color name="lightred">#ffffdab3</color>
+    <color name="green">#00ff00</color>
+    <color name="darkgreen">#185118</color>
+    <color name="lightgreen">#ffc7ffad</color>
+    <color name="blue">#0000ff</color>
+    <color name="orange">#FF3C2A</color>
+    <color name="white">#eeffffff</color>
+    <color name="grey">#dddddd</color>
+    <color name="black">#000000</color>
+    <color name="lightgrey">#eeeeee</color>
+    <color name="lightergrey">#f6f6f6</color>
+    <color name="darkgrey">#666666</color>
+    <color name="darkgreydark">#333333</color>
+    <color name="darkergrey">#222222</color>
+    <color name="darkestgrey">#111111</color>
+    <color name="transparentwhite">#80ffffff</color>
+    <color name="transparentblack">#80000000</color>
+    <color name="mainorange">#fea24f</color>
+
+    <color name="todo_year">#dfca18</color>
+    <color name="todo_month">#df8818</color>
+    <color name="todo_day">#df5e18</color>
+    <color name="todo_hour">#DF3A18</color>
+    <color name="todo_minute">#DC1D17</color>
+    <color name="todo_second">#D90016</color>
+</resources>
+
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">rndm-Todo</string>
+    
+    <string name="offline">offline</string>
+    <string name="online">eingeloggt</string>
+    
+    <string name="menu_settings">Settings</string>
+    <string name="menu_sort_date_importance">nach Datum sortieren</string>
+    <string name="menu_sort_importance_date">nach Special sortieren</string>
+    <string name="menu_refresh">Aktualisieren</string>
+    
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_contact">ContactActivity</string>
+
+    <string name="parcel_todo">de.rndm.todo</string>
+    <string name="parcel_contact">de.rndm.todo.contact</string>
+    <string name="parcel_delete">de.rndm.todo.delete</string>
+    <string name="parcel_update">de.rndm.todo.update</string>
+    <string name="parcel_num">de.rndm.todo.num</string>
+    <string name="parcel_readonly">de.rndm.todo.readonly</string>
+	
+    <string name="notify_last_todo_equal_name">Das zuletzt erstellte Todo hat bereits diesen Namen</string>
+    
+    <string name="success_delete">Erfolgreich gelöscht</string>
+    <string name="success_new">Erfolgreich erstellt</string>
+	<string name="success_todo_revert">Erfolgreich zurückgesetzt</string>
+    <string name="success_login">Erfolgreich eingeloggt</string>
+    <string name="success_changes">Erfolgreich gespeichert</string>
+    
+    <string name="error_new">Fehler beim Erstellen</string>
+    <string name="error_empty">Es müssen alle Felder ausgefüllt werden</string>
+    <string name="error_delete">Fehler beim Löschen</string>
+    <string name="error_invalid_email">Bitte geben Sie eine korrekte EMail an.</string>
+    <string name="error_empty_password">Das Passwort-Feld darf nicht leer sein</string>
+    <string name="error_wrong_login">Falsches Passwort oder EMail-Adresse</string>
+    <string name="error_wtf">Das hätte nicht passieren sollen. :(</string>
+    <string name="error_no_connection">Es muss eine aktive Verbindung vorhanden sein.</string>
+    <string name="error_client_protocol">ClientProtocolException</string>
+    
+    <string name="label_detail_planned">geplant für</string>
+    <string name="label_detail_contacts">Kontakte</string>
+    <string name="label_contact_open">Im Kontaktbuch öffnen</string>
+    <string name="label_add">hinzufügen</string>
+    <string name="label_todos">Todos</string>
+
+    <string name="content_todo_status">Todo Status</string>
+    <string name="content_app_logo">Rememberme Logo</string>
+    <string name="content_error">Fehlernachricht Icon</string>
+    <string name="content_success">Erfolgsnachricht Icon</string>
+    <string name="content_loading">Ladenachricht Icon</string>
+    <string name="content_user_avatar">Kontaktbild</string>
+
+    <string name="hint_email">E-Mail Adresse</string>
+    <string name="hint_password">Passwort</string>
+    <string name="hint_detail_title">Todo Titel</string>
+    <string name="hint_detail_description">Beschreibung</string>
+
+    <string name="button_back">Zurück</string>
+    <string name="button_login">Einloggen</string>
+    <string name="button_offline">Offline</string>
+    <string name="button_dashboard_submit">Neues Todo</string>
+    <string name="button_detail_time">13:37</string>
+    <string name="button_detail_date">01.12.1991</string>
+    <string name="button_detail_save">Speichern</string>
+    
+    <string name="loading_content">Inhalt wird geladen</string>
+    <string name="loading_changes">Änderungen werden gespeichert</string>
+    
+    <string name="url_login">http://rndm.de/todo/public/login</string>
+    <string name="url_user_list">http://rndm.de/todo/public/user/{ID}/list</string>
+    <string name="url_list">http://rndm.de/todo/public/list</string>
+    
+    <string name="checkbox_detail_done">Aufgabe erledigt</string>
+</resources>

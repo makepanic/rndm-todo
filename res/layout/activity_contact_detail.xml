@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/darkergrey"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_margin="10dp"
+            android:background="@color/darkestgrey">
+        <ListView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/list_contacts" android:paddingBottom="10dp" android:background="@color/darkergrey"/>
+        <LinearLayout
+                android:id="@+id/open_contact"
+                android:orientation="horizontal"
+                android:background="@color/darkgreydark"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:padding="5dp">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView" android:background="@android:drawable/ic_menu_my_calendar"/>
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:text="@string/label_contact_open"
+                    android:gravity="center_vertical"
+                    android:id="@+id/textView"/>
+            <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                         android:id="@+id/button_send_contact" android:background="@android:drawable/ic_menu_send"
+                    />
+            <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button_share_contact" android:background="@android:drawable/ic_menu_share"/>
+        </LinearLayout>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_contact_big" android:padding="10dp" android:textColor="@color/white"/>
+        <ListView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/list_todos"/>
+    </LinearLayout>
+</LinearLayout>
